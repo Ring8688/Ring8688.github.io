@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 张杰
+title:
 
 # Name pronunciation (optional)
 name_pronunciation: Jasper Zhang
