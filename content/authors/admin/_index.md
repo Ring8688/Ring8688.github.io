@@ -19,22 +19,21 @@ superuser: true
 # Role/position/tagline
 role: Master of IT Student 
 
-# Organizations/Affiliations to display in Biography block
+# Organizations/Affiliations to display in Biography blox
 organizations:
   - name: University of Auckland
     url: https://www.auckland.ac.nz/
 
 # Social network links
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
     url: 'mailto:chiehhi@outlook.com'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/Ring8688
-    label: GitHub
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/jasper-zhang-248b40268/
-    label: LinkedIn
 
 # Education
 education:
@@ -43,21 +42,21 @@ education:
     date_start: 2024-07-15
     date_end: 2025-11-15
     summary: |
-      Focused on software development, data analysis, and project management. Working on projects integrating IT solutions in real-world scenarios.
-
+      Focused on software development, data analysis, and project management. Developed projects that apply IT solutions to real-world challenges.
+      
   - area: Graduate Diploma in Creative Practice: 3D
     institution: Kingston University, UK
     date_start: 2022-09-01
     date_end: 2023-06-30
     summary: |
-      Explored design thinking and technical software proficiency, enhancing skills in architectural visualization and creative design solutions.
+      Studied design thinking and technical software skills, enhancing architectural and creative design capabilities.
 
-  - area: Bachelor of Civil Engineering
+  - area: B.Eng (Hons) Civil Engineering
     institution: Beijing Jiaotong University, China
     date_start: 2018-08-01
     date_end: 2022-06-30
     summary: |
-      Gained foundational knowledge in structural design, project management, and engineering principles, with an emphasis on practical applications.
+      Learned foundational civil engineering principles, focusing on structural design and project management.
 
 # Work Experience
 work:
@@ -68,7 +67,7 @@ work:
     date_start: 2020-10-01
     date_end: 2022-09-30
     summary: |
-      Assisted in developing technical guidelines and standards for prestress engineering. Conducted research and supported documentation processes.
+      Assisted in developing technical guidelines for prestress engineering. Conducted research and supported technical document preparation.
 
   - position: Team Member
     company_name: Datong People's Government Office
@@ -77,7 +76,7 @@ work:
     date_start: 2021-07-01
     date_end: 2021-08-31
     summary: |
-      Supported governmental projects by performing data analysis and contributing to research initiatives.
+      Contributed to data analysis and research support for government projects.
 
 # Skills
 skills:
@@ -115,8 +114,6 @@ awards:
     awarder: DataCamp
     icon: datacamp
     summary: |
-      Learned the principles of OOP in R, including S3 and R6 systems for industry-specific analyses and managing complexity in code.
+      Learned the basics of object-oriented programming (OOP) in R, using S3 and R6 systems to manage complexity in coding.
 
 ---
-
-I am a Master of Information Technology student at the University of Auckland, leveraging a diverse background in civil engineering, design, and IT to drive digital innovation.
