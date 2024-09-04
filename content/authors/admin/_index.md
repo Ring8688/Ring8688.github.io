@@ -43,7 +43,7 @@ education:
   - area: Master of Information Technology
     institution: University of Auckland
     date_start: 2024-07-15
-    date_end: ongoing
+    date_end: 2025-11-15
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
