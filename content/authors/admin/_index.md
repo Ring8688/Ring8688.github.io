@@ -1,29 +1,22 @@
 ---
 # Display name
-title:张杰
-
+title: 张杰
 # Name pronunciation (optional)
-name_pronunciation:
-
+name_pronunciation: Jasper Zhang
 # Full name (for SEO)
 first_name: Jasper
 last_name: Zhang
-
 # Status emoji
 status:
   icon: ☕️
-
 # Is this the primary user of the site?
 superuser: true
-
 # Role/position/tagline
 role: Master of IT Student 
-
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: UoA
     url: https://www.example.com/
-
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
@@ -38,11 +31,11 @@ profiles:
     url: https://www.linkedin.com/in/jasper-zhang-248b40268/
   - icon: brands/instagram
     url: https://www.instagram.com/
-
 education:
   - area: Master of Information Technology
     institution: University of Auckland
     date_start: 2024-07-15
+    date_end: ongoing
     date_end: 2025-11-15
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
@@ -55,7 +48,6 @@ education:
     date_end: 2020-12-31
     summary: |
       GPA: 3.8/4.0
-
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -94,7 +86,6 @@ work:
       - Migrated infrastructure to a new data center
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -128,7 +119,6 @@ skills:
         description: ''
         percent: 80
         icon: camera
-
 languages:
   - name: English
     percent: 100
@@ -136,7 +126,6 @@ languages:
     percent: 75
   - name: Portuguese
     percent: 25
-
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
@@ -168,5 +157,4 @@ awards:
     summary: |
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
-
 I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
