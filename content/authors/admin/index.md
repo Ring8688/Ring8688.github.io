@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jasper Zhang
+title:Jasper Zhang
 
 # Name pronunciation (optional)
 name_pronunciation:
@@ -21,99 +21,152 @@ role: Master of IT Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Auckland
-    url: https://www.auckland.ac.nz/
+  - name: UoA
+    url: https://www.example.com/
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+# Need to use another icon? Simply download the SVG icon to your assets/media/icons/ folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:chiehhi@outlook.com'
+    url: 'chiehhi@outlook.com'
     label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
   - icon: brands/github
     url: https://github.com/Ring8688
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/jasper-zhang-248b40268/
+  - icon: brands/instagram
+    url: https://www.instagram.com/
 
-# Education
 education:
   - area: Master of Information Technology
     institution: University of Auckland
     date_start: 2024-07-15
     date_end: 2025-11-15
     summary: |
-      Focused on software development, data analysis, and project management. Developed projects that apply IT solutions to real-world challenges.
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com'
+  - area: MEng Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.8/4.0
+
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BSc Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.4/4.0
       
-  - area: Graduate Diploma in Creative Practice: 3D
-    institution: Kingston University, UK
-    date_start: 2022-09-01
-    date_end: 2023-06-30
-    summary: |
-      Studied design thinking and technical software skills, enhancing architectural and creative design capabilities.
-
-  - area: B.Eng (Hons) Civil Engineering
-    institution: Beijing Jiaotong University, China
-    date_start: 2018-08-01
-    date_end: 2022-06-30
-    summary: |
-      Learned foundational civil engineering principles, focusing on structural design and project management.
-
-# Work Experience
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Creative Assistant
-    company_name: Prestress Engineering Professional Committee, CECS
+  - position: Director of Cloud Infrastructure
+    company_name: GenCoin
     company_url: ''
     company_logo: ''
-    date_start: 2020-10-01
-    date_end: 2022-09-30
-    summary: |
-      Assisted in developing technical guidelines for prestress engineering. Conducted research and supported technical document preparation.
-
-  - position: Team Member
-    company_name: Datong People's Government Office
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Backend Software Engineer
+    company_name: X
     company_url: ''
     company_logo: ''
-    date_start: 2021-07-01
-    date_end: 2021-08-31
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      Contributed to data analysis and research support for government projects.
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
+# Add your own SVG icons to assets/media/icons/
 skills:
   - name: Technical Skills
     items:
-      - name: Java
+      - name: Python
+        description: ''
         percent: 80
-      - name: JavaScript
-        percent: 75
-      - name: SQL
-        percent: 70
-      - name: Web Development
-        percent: 65
-  - name: Design Skills
+        icon: devicon/python
+      - name: RStudio
+        description: ''
+        percent: 100
+        icon: devicon/rstudio
+      - name: PyTorch
+        description: ''
+        percent: 40
+        icon: devicon/pytorch
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
     items:
-      - name: SketchUp
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      - name: Cats
+        description: ''
+        percent: 100
+        icon: cat
+      - name: Photography
+        description: ''
         percent: 80
-      - name: AutoCAD
-        percent: 70
-      - name: Adobe Illustrator
-        percent: 75
+        icon: camera
 
-# Languages
 languages:
   - name: English
     percent: 100
   - name: Chinese
-    percent: 90
+    percent: 75
+  - name: Portuguese
+    percent: 25
 
-# Awards
+# Awards.
+#   Add/remove as many awards below as you like.
+#   Only title, awarder, and date are required.
+#   Begin multi-line summary with YAML's | or |2- multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Object-Oriented Programming in R
+  - title: Neural Networks and Deep Learning
+    url: https://www.coursera.org/learn/neural-networks-deep-learning
+    date: '2023-11-25'
+    awarder: Coursera
+    icon: coursera
+    summary: |
+      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+  - title: Blockchain Fundamentals
+    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    date: '2023-07-01'
+    awarder: edX
+    icon: edx
+    summary: |
+      Learned:
+      - Synthesize your own blockchain solutions
+      - Gain an in-depth understanding of the specific mechanics of Bitcoin
+      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+  - title: 'Object-Oriented Programming in R'
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+    certificate_url: https://www.datacamp.com
     date: '2023-01-21'
-    awarder: DataCamp
+    awarder: datacamp
     icon: datacamp
     summary: |
-      Learned the basics of object-oriented programming (OOP) in R, using S3 and R6 systems to manage complexity in coding.
-
+      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
+
+I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
