@@ -25,7 +25,7 @@ organizations:
     url: https://www.example.com/
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your assets/media/icons/ folder.
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
     url: 'chiehhi@outlook.com'
@@ -96,7 +96,7 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
-# Add your own SVG icons to assets/media/icons/
+# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
@@ -139,8 +139,8 @@ languages:
 
 # Awards.
 #   Add/remove as many awards below as you like.
-#   Only title, awarder, and date are required.
-#   Begin multi-line summary with YAML's | or |2- multi-line prefix and indent 2 spaces below.
+#   Only `title`, `awarder`, and `date` are required.
+#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Neural Networks and Deep Learning
     url: https://www.coursera.org/learn/neural-networks-deep-learning
